@@ -2,20 +2,27 @@
   "name": "node-realtime-app",
   "version": "1.0.0",
   "description": "Realtime Application built using Node.js and Socket.io",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "",
+    "build": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "copy-webpack-plugin": "^4.4.1",
     "cors": "^2.8.4",
+    "css-loader": "^0.28.9",
     "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
     "mongoose": "^5.0.4",
     "morgan": "^1.9.0",
+    "node-sass": "^4.7.2",
     "nodemon": "^1.14.12",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
   }
