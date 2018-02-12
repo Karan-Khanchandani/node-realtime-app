@@ -4,19 +4,24 @@
   "description": "Realtime Application built using Node.js and Socket.io",
   "main": "src/app.js",
   "scripts": {
-    "start": "",
-    "build": ""
+    "start": "./node_modules/.bin/webpack-dev-server --hot --inline --progress",
+    "build": "webpack -p --config webpack.config.js --hide-modules"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
     "body-parser": "^1.18.2",
     "copy-webpack-plugin": "^4.4.1",
     "cors": "^2.8.4",
     "css-loader": "^0.28.9",
     "express": "^4.16.2",
     "extract-text-webpack-plugin": "^3.0.2",
+    "lodash": "^4.17.5",
     "mongoose": "^5.0.4",
     "morgan": "^1.9.0",
     "node-sass": "^4.7.2",

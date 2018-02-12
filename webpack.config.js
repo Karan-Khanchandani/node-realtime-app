@@ -11,7 +11,7 @@ const paths = {
 }
 
 module.exports = {
-    context: path.src,
+    context: paths.src,
     entry: ['./app.js', './main.scss'],
     output: {
         filename: 'app.bundle.js',
